@@ -37,6 +37,12 @@ class EVLTest {
     }
 
     @Test
+    void removeFirst() {
+
+
+    }
+
+    @Test
     void getFirst() {
         intListe.addFirst(2);
         assertEquals(intListe.getFirst(),2);
@@ -87,4 +93,6 @@ class EVLTest {
         intListe.addFirst(42);
         assertEquals(intListe.size(), 3);
     }
+
+
 }
